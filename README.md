@@ -41,4 +41,5 @@ source install/setup.bash
 <pre>
 ros2 launch webots_project1_python f23_robotics_1_launch.py
 </pre>
+Note: To edit to allow doors to open/close change the door node canBeOpen variable and to change lighting chage the CeilingLight node luminosity to desired value
 

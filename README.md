@@ -37,7 +37,7 @@ colcon build
 source install/setup.bash
 </pre>
 
-6. Start webots simulation with connect back to ROS in the virtual machine
+6. Start webots simulation
 <pre>
 ros2 launch webots_project1_python f23_robotics_1_launch.py
 </pre>

@@ -1,0 +1,2088 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/StraightRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/RoadLine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/RoadIntersection.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/CurvedRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/CrossRoadsTrafficLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/StopSign.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/SimpleBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/ResidentialBuildingWithRoundFront.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/ResidentialBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/FastFoodRestaurant.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/HouseWithGarage.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/CrashBarrier.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/LaneSeparation.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/PedestrianCrossing.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/Cypress.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/samples/robotbenchmark/pit_escape/protos/Pit.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/SandyGround.proto"
+
+WorldInfo {
+  title "Blank Grass World"
+}
+Viewpoint {
+  orientation -0.02482280925976288 -0.9991720991331995 0.03223266129579078 4.969884454484798
+  position -90.53984623693393 -16.483161743070795 1905.3215878241454
+}
+Background {
+  skyColor [
+    0.5 0.7 1
+  ]
+}
+DirectionalLight {
+  direction -1 -1 -1
+}
+StraightRoadSegment {
+  translation 8 -450 1
+  rotation 0 0 1 1.364
+  width 15
+  numberOfLanes 6
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 79
+}
+StraightRoadSegment {
+  translation 15 -361.8 1
+  rotation 0 0 1 2.9348003061004255
+  name "road(34)"
+  width 15
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 18
+}
+StraightRoadSegment {
+  translation 86.5 -78 1
+  rotation 0 0 1 1.39
+  name "road(29)"
+  width 15
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 46
+}
+StraightRoadSegment {
+  translation 94.4 -34 1
+  rotation 0 0 1 1.33
+  name "road(36)"
+  width 15
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  leftBorder FALSE
+  length 19
+}
+StraightRoadSegment {
+  translation 82.1 -96 1
+  rotation 0 0 1 1.33
+  name "road(37)"
+  width 15
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  leftBorder FALSE
+  length 19
+}
+StraightRoadSegment {
+  translation 78 -84 1
+  rotation 0 0 1 2.9607996938995744
+  name "road(30)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 82
+}
+StraightRoadSegment {
+  translation 90 -22.5 1
+  rotation 0 0 1 2.9607996938995744
+  name "road(31)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 97
+}
+StraightRoadSegment {
+  translation 38 -366.5 1
+  rotation 0 0 1 -0.17
+  name "road(5)"
+  width 15
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 197
+}
+StraightRoadSegment {
+  translation 598 -353.6 1
+  rotation 0 0 1 0.35359930610042534
+  name "road(7)"
+  width 15
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 272
+}
+StraightRoadSegment {
+  translation 587 -357.7 1
+  rotation 0 0 1 0.35359930610042534
+  name "road(39)"
+  width 15
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  rightBorder FALSE
+  leftBorder FALSE
+  length 272
+}
+StraightRoadSegment {
+  translation 859 -246 1
+  rotation 0 0 1 1.96
+  name "road(8)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 137
+}
+StraightRoadSegment {
+  translation 800.7 -104 1
+  rotation 0 0 1 1.96
+  name "road(60)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 140
+}
+StraightRoadSegment {
+  translation 807.3 -120 1
+  rotation 0 0 1 1.96
+  name "road(61)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  leftBorder FALSE
+  length 18
+}
+StraightRoadSegment {
+  translation 747.94 24.7 1
+  rotation 0 0 1 1.96
+  name "road(62)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  leftBorder FALSE
+  length 18
+}
+StraightRoadSegment {
+  translation 741.25 41 1
+  rotation 0 0 1 1.96
+  name "road(63)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 13
+}
+StraightRoadSegment {
+  translation 736.35 53 1
+  rotation 0 0 1 1.96
+  name "road(64)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  rightBorder FALSE
+  length 13
+}
+StraightRoadSegment {
+  translation 731.45 65 1
+  rotation 0 0 1 1.96
+  name "road(66)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 86
+}
+StraightRoadSegment {
+  translation 741 61 1
+  rotation 0 0 1 0.38920030610042533
+  name "road(65)"
+  width 15
+  numberOfLanes 1
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  rightBorder FALSE
+  leftBorder FALSE
+  length 18
+}
+StraightRoadSegment {
+  translation 909.2 -368 1
+  rotation 0 0 1 1.96
+  name "road(18)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 114
+}
+StraightRoadSegment {
+  translation 873 -251.2 1
+  rotation 0 0 1 0.38920030610042533
+  name "road(19)"
+  width 15
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 36
+}
+StraightRoadSegment {
+  translation 590 -349 1
+  rotation 0 0 1 1.9600003061004252
+  name "road(40)"
+  width 12
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  rightBorder FALSE
+  leftBorder FALSE
+  length 56
+}
+StraightRoadSegment {
+  translation 615 -396 1
+  rotation 0 0 1 2.0908996938995745
+  name "road(59)"
+  width 12
+  numberOfLanes 1
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  rightBorder FALSE
+  leftBorder FALSE
+  length 40
+}
+StraightRoadSegment {
+  translation 28 -354 1
+  rotation 0 0 1 1.364
+  name "road(1)"
+  width 15
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 265
+}
+StraightRoadSegment {
+  translation 99 -16 1
+  rotation 0 0 1 1.364
+  name "road(2)"
+  width 15
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 312
+}
+StraightRoadSegment {
+  translation 169 314 1
+  rotation 0 0 1 1.364
+  name "road(12)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 142
+}
+StraightRoadSegment {
+  translation 178.9 298.95 1
+  rotation 0 0 1 -0.2067990938995747
+  name "road(14)"
+  width 15
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 82
+}
+StraightRoadSegment {
+  translation 290.6 399 1
+  rotation 0 0 1 1.4948996938995749
+  name "road(27)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 57
+}
+StraightRoadSegment {
+  translation -1 323.6 1
+  rotation 0 0 1 -0.12
+  name "road(16)"
+  width 15
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 156.7
+}
+StraightRoadSegment {
+  translation 269.9 289 1
+  rotation 0 0 1 1.364
+  name "road(13)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 95.1
+}
+StraightRoadSegment {
+  translation 231.9 108 1
+  rotation 0 0 1 1.364
+  name "road(15)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 47
+}
+StraightRoadSegment {
+  translation 245.3 172 1
+  rotation 0 0 1 1.364
+  name "road(47)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 102
+}
+StraightRoadSegment {
+  translation 241.5 154 1
+  rotation 0 0 1 1.364
+  name "road(46)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  rightBorder FALSE
+  length 19
+}
+StraightRoadSegment {
+  translation 247 164 1
+  rotation 0 0 1 -0.5994986938995747
+  name "road(48)"
+  width 18
+  numberOfLanes 1
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  rightBorder FALSE
+  leftBorder FALSE
+  length 53
+}
+StraightRoadSegment {
+  translation 216.2 44 1
+  rotation 0 0 1 1.33
+  name "road(24)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 67
+}
+StraightRoadSegment {
+  translation 243 -393 1
+  rotation 0 0 1 1.364
+  name "road(21)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 167
+}
+StraightRoadSegment {
+  translation 230 -455 1
+  rotation 0 0 1 1.364
+  name "road(38)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 46
+}
+StraightRoadSegment {
+  translation 250 -403.3 1
+  rotation 0 0 1 -0.14
+  name "road(25)"
+  width 15
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 13
+}
+StraightRoadSegment {
+  translation 274.4 269 1
+  rotation 0 0 1 1.364
+  name "road(17)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 20
+}
+StraightRoadSegment {
+  translation 91 -96 1
+  rotation 0 0 1 1.35
+  name "road(32)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 20
+}
+StraightRoadSegment {
+  translation 103 -35 1
+  rotation 0 0 1 1.325
+  name "road(33)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 20
+}
+StraightRoadSegment {
+  translation 280.8 383 1
+  rotation 0 0 1 1.4948996938995749
+  name "road(28)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 20
+}
+StraightRoadSegment {
+  translation 379 -116 1
+  rotation 0 0 1 -1.1231003061004252
+  name "road(26)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 160
+}
+StraightRoadSegment {
+  translation 448 -260 1
+  rotation 0 0 1 -1.3848996938995748
+  name "road(3)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 127
+}
+StraightRoadSegment {
+  translation 429 -220 1
+  rotation 0 0 1 0.1858990938995747
+  name "road(35)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 127
+}
+StraightRoadSegment {
+  translation 105 -23 1
+  rotation 0 0 1 0.054999306100425305
+  name "road(67)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 49
+}
+StraightRoadSegment {
+  translation 120 42 1
+  rotation 0 0 1 -0.2068000938995747
+  name "road(68)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 49
+}
+StraightRoadSegment {
+  translation 132 94 1
+  rotation 0 0 1 -0.2068000938995747
+  name "road(69)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 49
+}
+StraightRoadSegment {
+  translation 142 150 1
+  rotation 0 0 1 -0.2068000938995747
+  name "road(70)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 49
+}
+StraightRoadSegment {
+  translation 152 192 1
+  rotation 0 0 1 -0.2068000938995747
+  name "road(71)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 49
+}
+StraightRoadSegment {
+  translation 162 240 1
+  rotation 0 0 1 -0.2068000938995747
+  name "road(72)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 49
+}
+StraightRoadSegment {
+  translation 188 363 1
+  rotation 0 0 1 -0.2068000938995747
+  name "road(73)"
+  width 1e-07
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 1
+  endingRoadBorderWidth 1
+  length 49
+}
+StraightRoadSegment {
+  translation 642 387 1
+  rotation 0 0 1 3.1331853071795863
+  name "road(10)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 344
+}
+StraightRoadSegment {
+  translation 900 385 1
+  rotation 0 0 1 3.1331853071795863
+  name "road(11)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 235
+}
+StraightRoadSegment {
+  translation 653.3 397 1
+  rotation 0 0 1 1.5707903061004251
+  name "road(20)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 0.929412 0.145098
+      type "double"
+    }
+  ]
+  startingRoadBorderWidth 2
+  endingRoadBorderWidth 2
+  length 56
+}
+RoadIntersection {
+  translation 26 -364 1
+  rotation 0 0 1 0.5840003061004253
+  roadsWidth 15
+  startRoadBorderWidth 2
+}
+CurvedRoadSegment {
+  translation 40.2 -356.7 1
+  rotation 0 0 1 3.03
+  name "road(4)"
+  width 15
+  roadBorderWidth [
+    2
+  ]
+  totalAngle 0.09
+}
+CurvedRoadSegment {
+  translation 331 261.4 1
+  rotation 0 0 1 -2.7488996938995744
+  name "road(6)"
+  width 15
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 1 0.866667 0.192157
+      type "double"
+    }
+  ]
+  roadBorderWidth [
+    2
+  ]
+  curvatureRadius 670
+  totalAngle 0.495
+}
+RoadIntersection {
+  translation 863 -255.4 1
+  rotation 0 0 1 1.1780996938995747
+  name "road intersection(1)"
+  roadsWidth 15
+  startRoadBorderWidth 2
+}
+RoadIntersection {
+  translation 653.2 387 1
+  rotation 0 0 1 0.7854003061004253
+  name "road intersection(2)"
+  roadsWidth 15
+  startRoadBorderWidth 2
+}
+RoadIntersection {
+  translation 166.1 302 1
+  rotation 0 0 1 0.55
+  name "road intersection(4)"
+  roadsWidth 15
+  startRoadsLength [
+    6
+  ]
+  startRoadBorderWidth 2
+}
+RoadIntersection {
+  translation 268 280.2 1
+  rotation 0 0 1 0.575
+  name "road intersection(5)"
+  roadsWidth 15
+  startRoadsLength [
+    2
+  ]
+  startRoadBorderWidth 2
+}
+RoadIntersection {
+  translation 290 390.4 1
+  rotation 0 0 1 0.7058996938995746
+  name "road intersection(7)"
+  roadsWidth 15
+  startRoadsLength [
+    2
+  ]
+  startRoadBorderWidth 2
+}
+RoadIntersection {
+  translation 241.3 -401.6 1
+  rotation 0 0 1 0.59
+  name "road intersection(6)"
+  roadsWidth 15
+  startRoadsLength [
+    2
+  ]
+  startRoadBorderWidth 2
+}
+RoadIntersection {
+  translation 653.2 387 1
+  rotation 0 0 1 0.7854003061004253
+  name "road intersection(3)"
+  roadsWidth 15
+  startRoadBorderWidth 2
+}
+CurvedRoadSegment {
+  translation 1253.2 374 1
+  rotation 0 0 1 1.963500306100425
+  name "road(9)"
+  width 15
+  lines [
+    RoadLine {
+      color 1 1 0
+      type "double"
+    }
+  ]
+  roadBorderWidth [
+    2
+  ]
+  curvatureRadius 600
+  totalAngle 0.4
+}
+CurvedRoadSegment {
+  translation 88.45 -208.4 1
+  rotation 0 0 1 -0.9163003061004252
+  name "road(22)"
+  width 15
+  roadBorderWidth [
+    2
+  ]
+  curvatureRadius 190
+  totalAngle 0.7708
+}
+CurvedRoadSegment {
+  translation 402.2 5 1
+  rotation 0 0 1 2.1209
+  name "road(23)"
+  width 15
+  roadBorderWidth [
+    2
+  ]
+  curvatureRadius 190
+  totalAngle 0.7708
+}
+CrossRoadsTrafficLight {
+  translation 25.8314 -364.071 1
+  rotation 0 0 1 -0.19
+}
+CrossRoadsTrafficLight {
+  translation 863.222 -255.752 1
+  rotation 0 0 1 0.39
+  name "cross road traffic light(2)"
+}
+CrossRoadsTrafficLight {
+  translation 166.09 301.559 1.1
+  rotation 0 0 1 -0.19
+  name "cross road traffic light(1)"
+}
+StopSign {
+  translation 86.9608 -29.8605 1
+  rotation 0 0 -1 -2.8797953071795863
+}
+StopSign {
+  translation 257.825 274.082 1
+  rotation 0 0 -1 -2.8797953071795863
+  name "stop sign(2)"
+}
+StopSign {
+  translation 262.141 290.186 1
+  rotation 0 0 -1 -1.3089953071795861
+  name "stop sign(4)"
+}
+StopSign {
+  translation 274.054 269.731 1
+  rotation 0 0 1 -1.8325953071795862
+  name "stop sign(3)"
+}
+StopSign {
+  translation 299.651 397.865 1
+  rotation 0 0 1 4.02055e-07
+  name "stop sign(5)"
+}
+StopSign {
+  translation 645.101 395.425 1
+  rotation 0 0 1 1.5708
+  name "stop sign(6)"
+}
+StopSign {
+  translation 645.101 378.365 1
+  rotation 0 0 1 -3.1415853071795863
+  name "stop sign(7)"
+}
+StopSign {
+  translation 661.691 378.365 1
+  rotation 0 0 -1 1.57079
+  name "stop sign(8)"
+}
+StopSign {
+  translation 661.691 395.805 1
+  rotation 0 0 1 6.32203e-06
+  name "stop sign(9)"
+}
+StopSign {
+  translation 234.705 -391.286 1
+  rotation 0 0 1 1.309
+  name "stop sign(10)"
+}
+StopSign {
+  translation 231.207 -408.01 1
+  rotation 0 0 1 2.8798
+  name "stop sign(11)"
+}
+StopSign {
+  translation 252.389 -395.076 1
+  rotation 0 0 1 -0.261795307179586
+  name "stop sign(12)"
+}
+StopSign {
+  translation 73.5708 -91.8882 1
+  rotation 0 0 -1 -2.8797953071795863
+  name "stop sign(1)"
+}
+RoadIntersection {
+  translation 334 -82 1
+  rotation 0 0 1 -0.3926996938995747
+  name "road intersection(10)"
+  roadsWidth 98
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 517 -303 1
+  rotation 0 0 1 -0.5235996938995747
+  name "road intersection(14)"
+  roadsWidth 115
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 922 -107 1
+  rotation 0 0 1 2.74
+  name "road intersection(15)"
+  roadsWidth 176
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 757 -104 1
+  rotation 0 0 1 2.74
+  name "road intersection(18)"
+  roadsWidth 68.6
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 198 -338 1
+  rotation 0 0 1 -2.4870956132800117
+  name "road intersection(19)"
+  roadsWidth 60
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 142 -331 1
+  rotation 0 0 1 -2.4870956132800117
+  name "road intersection(20)"
+  roadsWidth 60
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 142 -178 1
+  rotation 0 0 1 -2.4870956132800117
+  name "road intersection(21)"
+  roadsWidth 41
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 181 -183 1
+  rotation 0 0 1 -2.4870956132800117
+  name "road intersection(22)"
+  roadsWidth 41
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 219 -188 1
+  rotation 0 0 1 -2.4870956132800117
+  name "road intersection(23)"
+  roadsWidth 41
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 719 -398 1
+  rotation 0 0 1 -1.963500306100425
+  name "road intersection(8)"
+  roadsWidth 41
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 704 -361 1
+  rotation 0 0 1 -1.963500306100425
+  name "road intersection(9)"
+  roadsWidth 41
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 667 -377 1
+  rotation 0 0 1 -1.963500306100425
+  name "road intersection(24)"
+  roadsWidth 41
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 629 -392 1
+  rotation 0 0 1 -1.963500306100425
+  name "road intersection(25)"
+  roadsWidth 41
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 733 -47 1
+  rotation 0 0 1 2.74
+  name "road intersection(16)"
+  roadsWidth 67
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 716 -5 1
+  rotation 0 0 1 2.74
+  name "road intersection(17)"
+  roadsWidth 67
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 627 225 1
+  rotation 0 0 1 2.4781996938995747
+  name "road intersection(29)"
+  roadsWidth 43
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 778 55 1
+  rotation 0 0 1 3.0017996938995744
+  name "road intersection(26)"
+  roadNumber 3
+  roadsWidth 51
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 795 13 1
+  rotation 0 0 1 3.0017996938995744
+  name "road intersection(28)"
+  roadNumber 3
+  roadsWidth 51
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 800 39 1
+  rotation 0 0 1 1.9546003061004253
+  name "road intersection(27)"
+  roadNumber 3
+  roadsWidth 51
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 300 1 1
+  rotation 0 0 1 -0.3926996938995747
+  name "road intersection(11)"
+  roadsWidth 98
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 283 43 1
+  rotation 0 0 1 -0.3926996938995747
+  name "road intersection(12)"
+  roadNumber 15
+  roadsWidth 21
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 289 93 1
+  rotation 0 0 1 -0.13090030610042527
+  name "road intersection(13)"
+  roadNumber 3
+  roadsWidth 85
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 70 222 1
+  rotation 0 0 1 0.6545003061004253
+  name "road intersection(30)"
+  roadsWidth 49
+  startRoadsLength [
+    0
+  ]
+}
+RoadIntersection {
+  translation 75 262 1
+  rotation 0 0 1 0.6545003061004253
+  name "road intersection(31)"
+  roadsWidth 49
+  startRoadsLength [
+    0
+  ]
+}
+SimpleBuilding {
+  translation 166.89 -22.64 0
+  rotation 0 0 1 4.692820414042842e-06
+  corners [
+    15 15
+    15 -15
+    -15 -15
+    -15 15
+  ]
+}
+SimpleBuilding {
+  translation 761.449 -350.136 0
+  rotation 0 0 -1 2.61799
+  name "building(2)"
+  corners [
+    15 15
+    15 -15
+    -15 -15
+    0 0
+  ]
+}
+SimpleBuilding {
+  translation 634.86 -214.45 1
+  rotation 0 0 1 4.692820414042842e-06
+  name "building(2)"
+  corners [
+    50 50
+    50 -50
+    -50 -50
+    -50 50
+  ]
+  roofHeight 12
+}
+SimpleBuilding {
+  translation 177.44 28.97 0
+  rotation 0 0 1 -0.261795307179586
+  name "building(1)"
+  corners [
+    15 15
+    15 -15
+    -15 -15
+    -15 15
+  ]
+}
+SimpleBuilding {
+  translation 22.1387 -103.146 0
+  rotation 0 0 1 4.07987e-06
+  name "building(2)"
+  corners [
+    15 15
+    15 -15
+    -15 -15
+    -15 15
+  ]
+}
+SimpleBuilding {
+  translation 17.7053 -172.258 0
+  rotation 0 0 1 -0.261795307179586
+  name "building(2)"
+  corners [
+    15 15
+    15 -15
+    -15 -15
+    -15 15
+  ]
+}
+SimpleBuilding {
+  translation 5.25386 -277.418 0
+  rotation 0 0 1 -0.261795307179586
+  name "building(2)"
+  corners [
+    15 15
+    15 -15
+    -15 -15
+    -15 15
+  ]
+}
+SimpleBuilding {
+  translation 58.2733 -420.868 0
+  rotation 0 0 1 -0.261795307179586
+  name "building(2)"
+  corners [
+    15 15
+    15 -15
+    -15 -15
+    -15 15
+  ]
+}
+SimpleBuilding {
+  translation 823.08 -319.281 0
+  rotation 0 0 1 0.523603
+  name "building(2)"
+  corners [
+    20 15
+    20 -10
+    -15 -10
+    -15 15
+  ]
+}
+SimpleBuilding {
+  translation 157.69 -237.689 0
+  rotation 0 0 1 -0.261795307179586
+  name "building(2)"
+  corners [
+    40 20
+    40 -20
+    -40 -20
+    -40 20
+  ]
+}
+SimpleBuilding {
+  translation 210.846 -279.532 0
+  rotation 0 0 1 -0.261795307179586
+  name "building(2)"
+  corners [
+    40 20
+    40 -20
+    -40 -20
+    -40 20
+  ]
+}
+SimpleBuilding {
+  translation 189.891 82.5827 0
+  rotation 0 0 1 -0.261795307179586
+  name "building(2)"
+  corners [
+    15 15
+    15 -15
+    -15 -15
+    -15 15
+  ]
+}
+SimpleBuilding {
+  translation 197.437 137.518 0
+  rotation 0 0 1 -0.261795307179586
+  name "building(3)"
+  corners [
+    15 15
+    15 -15
+    -15 -15
+    -15 15
+  ]
+}
+SimpleBuilding {
+  translation 208.407 178.453 0
+  rotation 0 0 1 -0.261795307179586
+  name "building(4)"
+  corners [
+    15 15
+    15 -15
+    -15 -15
+    -15 15
+  ]
+}
+SimpleBuilding {
+  translation 219.122 224.811 0
+  rotation 0 0 1 -0.261795307179586
+  name "building(5)"
+  corners [
+    15 15
+    15 -15
+    -15 -15
+    -15 15
+  ]
+}
+SimpleBuilding {
+  translation 249.777 352.444 0
+  rotation 0 0 1 -0.261795307179586
+  name "building(6)"
+  corners [
+    15 15
+    15 -15
+    -15 -15
+    -15 15
+  ]
+}
+ResidentialBuildingWithRoundFront {
+  translation 318.22 358.23 1
+}
+ResidentialBuildingWithRoundFront {
+  translation 359.05 358.23 1
+  name "residential building(1)"
+}
+ResidentialBuildingWithRoundFront {
+  translation 422.17 358.23 1
+  name "residential building(2)"
+}
+ResidentialBuildingWithRoundFront {
+  translation 448.24 410.8 1
+  name "residential building(7)"
+}
+ResidentialBuildingWithRoundFront {
+  translation 481.54 410.8 1
+  name "residential building(8)"
+}
+ResidentialBuildingWithRoundFront {
+  translation 519.45 410.8 1
+  name "residential building(9)"
+}
+ResidentialBuildingWithRoundFront {
+  translation 509.75 358.23 1
+  name "residential building(3)"
+}
+ResidentialBuildingWithRoundFront {
+  translation 545.92 358.23 1
+  name "residential building(4)"
+}
+ResidentialBuildingWithRoundFront {
+  translation 586 362.46 0
+  rotation 0 0 1 2.35619
+  name "residential building(5)"
+}
+ResidentialBuildingWithRoundFront {
+  translation 589.85 325.55 0
+  rotation 0 0 -1 -1.5707953071795862
+  name "residential building(6)"
+}
+ResidentialBuilding {
+  translation 105.31 384.33 0
+  rotation 0 0 1 1.5708
+  name "residential building(10)"
+}
+ResidentialBuilding {
+  translation 138.83 405.99 0
+  rotation 0 0 1 -3.1415853071795863
+  name "residential building(11)"
+}
+FastFoodRestaurant {
+  translation 41 -46 0
+  rotation 0 0 1 -0.261795307179586
+  scale 3
+}
+HouseWithGarage {
+  translation 617.33 264.52 0
+}
+HouseWithGarage {
+  translation 864.36 364.72 0
+  rotation 0 0 1 1.5708
+  name "house with garage(1)"
+}
+CrashBarrier {
+  translation 0 -450 1
+  path [
+    0 0 0
+    0 900 0
+  ]
+}
+CrashBarrier {
+  translation 900 450 1
+  rotation 0 0 1 3.141592653589793
+  name "crash barrier(1)"
+  path [
+    0 0 0
+    0 900 0
+  ]
+}
+CrashBarrier {
+  translation 900 450 1
+  rotation 0 0 1 3.141592653589793
+  name "crash barrier(3)"
+  path [
+    0 0 0
+    900 0 0
+  ]
+  barrierOnRightSide FALSE
+}
+CrashBarrier {
+  translation 0 -450 1
+  name "crash barrier(2)"
+  path [
+    0 0 0
+    900 0 0
+  ]
+  barrierOnRightSide FALSE
+}
+LaneSeparation {
+  translation 70.3 -153 1
+  rotation 0 0 1 1.34
+  name "road(41)"
+  length 28
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 46 -367.9 1
+  rotation 0 0 1 -0.2
+  name "road(49)"
+  length 28
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 101 -377.4 1
+  rotation 0 0 1 2.9415996938995748
+  name "road(50)"
+  length 28
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 230 -399.4 1
+  rotation 0 0 1 2.9415996938995748
+  name "road(51)"
+  length 34
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 264 -405.6 1
+  rotation 0 0 1 -0.06
+  name "road(53)"
+  length 70
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 403 -405.4 1
+  rotation 0 0 1 -3.1
+  name "road(54)"
+  length 70
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 482 -391.6 1
+  rotation 0 0 1 0.26
+  name "road(55)"
+  length 56
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 588 -357.5 1
+  rotation 0 0 1 -2.81
+  name "road(56)"
+  length 56
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 652 -333.8 1
+  rotation 0 0 1 0.3315986938995747
+  name "road(57)"
+  length 56
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 757 -295 1
+  rotation 0 0 1 -2.795
+  name "road(58)"
+  length 56
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 163 -388 1
+  rotation 0 0 1 -0.1831853071795866
+  name "road(52)"
+  length 34
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 81.6 -99 1
+  rotation 0 0 1 -1.81
+  name "road(42)"
+  length 28
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 144.1 199 1
+  rotation 0 0 1 -1.79
+  name "road(43)"
+  length 76
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 113 52 1
+  rotation 0 0 1 1.3515996938995747
+  name "road(44)"
+  length 76
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+LaneSeparation {
+  translation 182.2 377 1
+  rotation 0 0 1 1.3515996938995747
+  name "road(45)"
+  length 76
+  numberOfLanes 2
+  numberOfleavingLanes 1
+  rightBorder FALSE
+  leftBorder FALSE
+}
+PedestrianCrossing {
+  translation 27.7089 -354.299 0.81
+  rotation 0 0 1 -0.261795307179586
+  size 16 4
+}
+PedestrianCrossing {
+  translation 35.2978 -366.001 0.81
+  rotation 9.5898e-09 7.35854e-09 1 -1.8325953071795862
+  name "pedestrian crossing(1)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 139.19 -384.363 0.81
+  rotation 9.5898e-09 7.35854e-09 1 -1.8325953071795862
+  name "pedestrian crossing(2)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 242.705 -391.485 0.81
+  rotation 1.26251e-09 9.58981e-09 1 2.87979
+  name "pedestrian crossing(3)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 474.061 -393.424 0.81
+  rotation -4.62578e-09 1.11676e-08 1 1.83259
+  name "pedestrian crossing(4)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 853.489 -259.352 0.81
+  rotation 4.62578e-09 -1.11676e-08 -1 -1.8325953071795862
+  name "pedestrian crossing(6)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 871.634 -251.728 0.81
+  rotation 4.62578e-09 -1.11676e-08 -1 -1.8325953071795862
+  name "pedestrian crossing(7)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 866.776 -264.977 0.81
+  rotation 6.78781e-08 -2.8116e-08 -1 -0.261795307179586
+  name "pedestrian crossing(8)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 859.298 -245.898 0.81
+  rotation 6.78781e-08 -2.8116e-08 -1 -0.261795307179586
+  name "pedestrian crossing(9)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 771.437 -33.3727 0.81
+  rotation 7.28399e-08 -9.58953e-09 1 -0.2618053071795865
+  name "pedestrian crossing(10)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 652.109 376.892 0.81
+  rotation -0.003129279224751766 0.0008384877922728738 -0.9999947522611086 5.92017e-06
+  name "pedestrian crossing(11)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 652.109 396.082 0.81
+  rotation -0.003129279224751766 0.0008384877922728738 -0.9999947522611086 5.92017e-06
+  name "pedestrian crossing(12)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 663.189 387.102 0.81
+  rotation 1.17449e-08 6.78092e-09 1 -1.5708053071795867
+  name "pedestrian crossing(13)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 644.109 387.102 0.81
+  rotation 1.17449e-08 6.78092e-09 1 -1.5708053071795867
+  name "pedestrian crossing(14)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 299.909 390.022 0.81
+  rotation 1.17449e-08 6.78092e-09 1 -1.5708053071795867
+  name "pedestrian crossing(15)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 252.432 161.215 0.81
+  rotation 9.58966e-09 7.35841e-09 1 -1.8326053071795858
+  name "pedestrian crossing(16)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 218.288 -42.8806 0.81
+  rotation 3.70148e-09 8.93617e-09 1 -2.8798053071795864
+  name "pedestrian crossing(18)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 264.05 -285.283 0.81
+  rotation 1.26251e-09 9.58971e-09 1 2.87978
+  name "pedestrian crossing(19)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 257.728 -318.93 0.81
+  rotation 1.26251e-09 9.58971e-09 1 2.87978
+  name "pedestrian crossing(20)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 266.03 270.343 0.81
+  rotation 1.26251e-09 9.58972e-09 1 2.87978
+  name "pedestrian crossing(17)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 163.709 293.007 0.81
+  rotation 1.26251e-09 9.58972e-09 1 2.87978
+  name "pedestrian crossing(21)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 168.535 311.049 0.81
+  rotation 1.26251e-09 9.58972e-09 1 2.87978
+  name "pedestrian crossing(22)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 175.474 299.685 0.81
+  rotation 9.58966e-09 7.35841e-09 1 -1.8326053071795858
+  name "pedestrian crossing(23)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 157.004 304.103 0.81
+  rotation 9.58966e-09 7.35841e-09 1 -1.8326053071795858
+  name "pedestrian crossing(24)"
+  size 16 4
+}
+PedestrianCrossing {
+  translation 589.491 -347.044 0.81
+  rotation 3.70153e-09 8.93628e-09 1 -2.8797953071795863
+  name "pedestrian crossing(5)"
+  size 12 4
+}
+Cypress {
+  translation 77.47 -118.03 1
+}
+Cypress {
+  translation 76.01 -124.47 1
+  name "cypress tree(1)"
+}
+Cypress {
+  translation 75.01 -130.49 1
+  name "cypress tree(2)"
+}
+Cypress {
+  translation 66.73 -371.64 1
+  name "cypress tree(14)"
+}
+Cypress {
+  translation 73.33 -372.76 1
+  name "cypress tree(15)"
+}
+Cypress {
+  translation 80.48 -373.92 1
+  name "cypress tree(16)"
+}
+Cypress {
+  translation 185.27 -391.59 1
+  name "cypress tree(17)"
+}
+Cypress {
+  translation 193.01 -392.88 1
+  name "cypress tree(18)"
+}
+Cypress {
+  translation 201.42 -394.35 1
+  name "cypress tree(19)"
+}
+Cypress {
+  translation 208.03 -395.49 1
+  name "cypress tree(20)"
+}
+Cypress {
+  translation 310.14 -407.87 1
+  name "cypress tree(21)"
+}
+Cypress {
+  translation 320.06 -408.3 1
+  name "cypress tree(22)"
+}
+Cypress {
+  translation 330.61 -408.84 1
+  name "cypress tree(23)"
+}
+Cypress {
+  translation 340.83 -408.84 1
+  name "cypress tree(24)"
+}
+Cypress {
+  translation 353.37 -408.19 1
+  name "cypress tree(25)"
+}
+Cypress {
+  translation 370.16 -407.09 1
+  name "cypress tree(26)"
+}
+Cypress {
+  translation 511.88 -383.05 1
+  name "cypress tree(27)"
+}
+Cypress {
+  translation 527.87 -378.59 1
+  name "cypress tree(28)"
+}
+Cypress {
+  translation 546.99 -372.28 1
+  name "cypress tree(29)"
+}
+Cypress {
+  translation 557.21 -368.53 1
+  name "cypress tree(30)"
+}
+Cypress {
+  translation 679.23 -323.91 1
+  name "cypress tree(31)"
+}
+Cypress {
+  translation 692.59 -318.95 1
+  name "cypress tree(34)"
+}
+Cypress {
+  translation 703.16 -314.73 1
+  name "cypress tree(32)"
+}
+Cypress {
+  translation 720.24 -308.85 1
+  name "cypress tree(33)"
+}
+Cypress {
+  translation 123.02 99.14 1
+  name "cypress tree(3)"
+}
+Cypress {
+  translation 124.9 108.61 1
+  name "cypress tree(4)"
+}
+Cypress {
+  translation 126.66 117.03 1
+  name "cypress tree(5)"
+}
+Cypress {
+  translation 128.11 123.4 1
+  name "cypress tree(6)"
+}
+Cypress {
+  translation 129.51 130.14 1
+  name "cypress tree(7)"
+}
+Cypress {
+  translation 131.08 138.08 1
+  name "cypress tree(8)"
+}
+Cypress {
+  translation 133.53 148.43 1
+  name "cypress tree(9)"
+}
+Cypress {
+  translation 191.73 422.24 1
+  name "cypress tree(10)"
+}
+Cypress {
+  translation 193.88 431.38 1
+  name "cypress tree(11)"
+}
+Cypress {
+  translation 195.22 438.95 1
+  name "cypress tree(12)"
+}
+Cypress {
+  translation 197.39 448.26 1
+  name "cypress tree(13)"
+}
+Pit {
+  translation 450 0 0.99
+  size 900 897 0
+  appearance SandyGround {
+    colorOverride 0.407843 0.482353 0.247059
+  }
+}

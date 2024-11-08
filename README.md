@@ -37,9 +37,11 @@ colcon build
 source install/setup.bash
 </pre>
 
-6. Start webots simulation
+6. Start webots simulation f23_robotics_1_launch.py for indoor or f23_robotics_1_launch_outside.py for outside 
 <pre>
 ros2 launch webots_project1_python f23_robotics_1_launch.py
+  or
+ros2 launch webots_project1_python f23_robotics_1_launch_outside.py
 </pre>
 Note: To edit to allow doors to open/close change the door node canBeOpen variable and to change lighting chage the CeilingLight node luminosity to desired value
 

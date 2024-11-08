@@ -43,5 +43,5 @@ ros2 launch webots_project1_python f23_robotics_1_launch.py
   or
 ros2 launch webots_project1_python f23_robotics_1_launch_outside.py
 </pre>
-Note: To edit to allow doors to open/close change the door node canBeOpen variable and to change lighting chage the CeilingLight node luminosity to desired value
+Note: To edit to change time of day you can delete the background node and edit the directional light node intensity and direction. Traffic light controllers can be specified under CrossRoadsTrafficLight controller.
 
